@@ -1,42 +1,50 @@
-# 🧩 Memory Puzzle Game PRO
+#  Memory Puzzle Game PRO
 
-A modern and interactive Memory Puzzle Game developed using **Python** and **Pygame**. The objective of the game is to match all card pairs within the given time limit while making the fewest possible moves.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Pygame](https://img.shields.io/badge/Pygame-2.x-green)
+![Platform](https://img.shields.io/badge/Platform-Desktop-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![License](https://img.shields.io/badge/License-Educational-blue)
 
----
+##  Project Overview
 
-## 📌 Project Overview
+**Memory Puzzle Game PRO** is a modern desktop-based memory card matching game developed using **Python** and **Pygame**. The objective of the game is to match all pairs of cards within the given time limit while making the fewest possible moves.
 
-Memory Puzzle Game PRO is a desktop-based game that enhances memory skills by challenging players to find matching card pairs. The game includes a professional user interface, timer, score system, move counter, and high-score tracking.
-
----
-
-## ✨ Features
-
-- 🎮 Interactive Memory Puzzle Game
-- 🧩 4 × 4 Card Grid
-- ⏰ Countdown Timer
-- ⭐ Live Score System
-- 🎯 Move Counter
-- 🏆 High Score Saving
-- 🔄 Restart Game
-- 🎉 Winning Popup
-- ⌛ Game Over Screen
-- 🎨 Professional User Interface
-- 🖥️ Smooth Gameplay
-- 🧱 Modular Python Project Structure
+The project demonstrates object-oriented programming concepts, event handling, game logic implementation, modular programming, and user interface development. It provides an engaging gameplay experience with score tracking, timer management, move counting, and high-score saving.
 
 ---
 
-## 🛠️ Technologies Used
+#  Features
 
-- Python 3
-- Pygame
+-  Interactive Memory Puzzle Game
+-  4 × 4 Memory Card Grid
+-  Countdown Timer
+-  Live Score System
+-  Move Counter
+-  High Score Saving
+-  Restart Game Functionality
+-  Winning Screen
+-  Game Over Screen
+-  Clean and Professional User Interface
+-  Modular Python Project Structure
+-  Smooth Gameplay Experience
 
 ---
 
-## 📂 Project Structure
+#  Technologies Used
 
-```
+| Technology | Purpose |
+|------------|---------|
+| Python | Programming Language |
+| Pygame | Desktop Game Development |
+| Object-Oriented Programming | Game Architecture |
+| File Handling | High Score Management |
+
+---
+
+#  Project Structure
+
+```text
 Memory-Puzzle-Game/
 │
 ├── main.py
@@ -46,32 +54,37 @@ Memory-Puzzle-Game/
 ├── utils.py
 ├── requirements.txt
 ├── highscore.txt
-└── README.md
+├── README.md
+│
+└── assets/
+    ├── images/
+    ├── sounds/
+    └── fonts/
 ```
 
 ---
 
-## 🚀 Installation
+#  Installation
 
-### Clone Repository
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Memory-Puzzle-Game.git
+git clone https://github.com/your-username/Memory-Puzzle-Game.git
 ```
 
-### Go to Project Folder
+### 2. Navigate to the Project Directory
 
 ```bash
 cd Memory-Puzzle-Game
 ```
 
-### Install Dependencies
+### 3. Install Required Packages
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the Game
+### 4. Run the Game
 
 ```bash
 python main.py
@@ -79,58 +92,72 @@ python main.py
 
 ---
 
-## 🎮 How to Play
+#  How to Play
 
-1. Click any card to reveal it.
-2. Reveal another card.
-3. If both cards match, they remain open.
-4. If they do not match, they flip back.
-5. Match all pairs before the timer ends.
-6. Press **R** to restart the game.
-7. Press **ESC** to exit.
-
----
-
-## 📸 Screenshots
-
-Add screenshots of the following:
-
-- Main Game Window
-- Playing Screen
-- Winning Screen
-- Game Over Screen
+1. Launch the game.
+2. Click on a card to reveal its value.
+3. Select another card.
+4. If both cards match, they remain visible.
+5. If they do not match, they flip back automatically.
+6. Match all pairs before the timer expires.
+7. Press **R** to restart the game.
+8. Press **ESC** to exit the game.
 
 ---
 
-## 📋 Requirements
+#  Requirements
 
-```
+```text
 pygame>=2.6.0
 ```
 
 ---
 
-## 🎯 Future Improvements
+#  Learning Outcomes
 
-- Difficulty Levels
-- Card Flip Animation
-- Sound Effects
-- Background Music
-- Image-Based Cards
-- Leaderboard
-- Dark Mode
-- Start Menu
+This project demonstrates practical implementation of:
+
+- Object-Oriented Programming (OOP)
+- Event Handling
+- Game Loop Design
+- Timer Management
+- Collision Detection
+- Modular Programming
+- File Handling
+- User Interface Development
+- Desktop Game Development with Pygame
 
 ---
 
-## 👩‍💻 Developer
+#  Future Enhancements
+
+-  Animated Card Flip
+-  Background Music
+-  Sound Effects
+-  Image-Based Cards
+-  Multiple Difficulty Levels
+-  Leaderboard System
+-  Dark Mode
+-  Settings Menu
+-  Save & Resume Game
+
+---
+
+#  Developer
 
 **Hania Eman**
 
-Python Developer | AI & Data Science Student
+**Python Developer | AI & Data Science Student**
+
+-  Python & Pygame Developer
+-  AI & Data Science Enthusiast
+-  Passionate about building interactive desktop applications and machine learning projects.
 
 ---
 
-## 📄 License
+#  License
 
-This project is created for educational and internship purposes.
+This project was developed for **educational purposes** and **internship submission**.
+
+---
+
