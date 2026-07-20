@@ -69,7 +69,7 @@ Memory-Puzzle-Game/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Memory-Puzzle-Game.git
+https://github.com/haniaeman2026-pixel/HexSoftwares-Memory-Puzzle-Game.git
 ```
 
 ### 2. Navigate to the Project Directory
